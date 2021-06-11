@@ -1,0 +1,183 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: helvetica Neue;
+	background-color: blue;
+}
+div#centro{
+	margin-left: 60px;
+	margin-right: 10px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	height: 20px;
+	width: 800px;
+	float: center;
+	text-align: center;
+}
+#titulo{
+	text-align: center;
+}
+#im{
+	float: left;
+	margin-right: 925px;
+	margin-left: 10px;
+}
+.zoom.hover{
+	transform:scale (2);
+	-moz-tranform:scale(2);
+	-webkit-transform:scale(2);
+	-o-transform:scale(2);
+}
+#barra{
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	float: left;
+	height: 950px;
+	width: 340px;
+	text-align: left;
+	background-color: pink;
+	font-size: 1.2em;
+
+}
+
+#menu2{
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	float: left;
+	height: 340px;
+	width: 200px;
+	text-align: left;
+	background-color: orange;
+	font-size: 1.2em;
+}
+#menu2 ul{
+	list-style: none;
+	margin: 0;
+	padding: 5;
+}
+#menu2 ul li{
+	display: inline-table;
+}
+#menu2 ul li a{
+	color: white;
+	display: table;
+	padding: 20px;
+	text-decoration: none;
+}
+#menu2 ul li a:hover{
+	background-color: black;
+}
+#misionyvision{
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	float: left;
+	height: 500px;
+	width: 350px;
+	text-align: left;
+	background-color: #45B39D;
+}
+#informacion{
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	float: right;
+	height: 400px;
+	width: 960px;
+	background-color: #D2B4DE;
+}
+#menu{
+	background-color: #000;
+	width: 700px;
+	margin-left: 120px;
+}
+#menu ul{
+	list-style: none;
+	margin: 0;
+	padding: 5;
+}
+#menu ul li{
+	display: inline-block;
+}
+#menu ul li a{
+	color: white;
+	display: block;
+	padding: 20px;
+	text-decoration: none;
+}
+#menu ul li a:hover{
+	background-color: #5f6A6A;
+
+}
+#programacion{
+	text-align: center;
+
+}
+#ima{
+	float: right;
+}
+p#dos{
+	text-align: left;
+	float: right;
+	font-size: 1.5em;
+}
+#programacion{
+	transition:width 2s, height 2s, transforms 2s;
+	-moz-transition: width 2s, height 2s, -webkit-transform 2s;
+	-webkit-transition: width2s, height 2s, -webkit-transfomr 2s;
+	-o-transition: width 2s, height 2s, -o-transform 2s;
+}
+#programacion:hover{
+	transform:scale(2);
+	-moz-transform:scale(2);
+	-webkit-transform:scale(2);
+	-o-transform:scale(2);
+}
+#ima{
+	transition: width 2s, height 2s, transform 2s;
+	-moz-transition:width 2s, height 2s, -webkit-transform 2s;
+	-webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+	-o-transition: width 2s, height 2s, -o-transform 2s;
+}
+#ima:hover{
+	transform:scale(1);
+    -moz-tranform:scale(1);
+    -webkit-tranform:scale(1.5);
+    -o-transform:scale(2);
+}
+#tres{
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	float: right;
+	height: 400px;
+	width: 960px;
+	background-color: #E8DAEF;
+}
+#video{
+	float: right;
+}
+#treso{
+	text-align: right;
+}
+#n{
+	float: left;
+}
+#direccion{
+	width: 1000px;
+	height: 50px;
+
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 180px;
+	margin-right: 10px;
+	text-align: center;
+	float: center;
+}
